@@ -1,0 +1,21 @@
+A truth about using position:relative;
+
+Remember, if you change the position 
+
+of something say, a box, by using 
+
+the position:relative;, it will change
+
+the position no doubt. But,
+
+it will always take the space where 
+
+it was before using the 
+
+position:relative;.
+
+
+To get a better idea:
+
+See the file (truth_about_position_relative)
+

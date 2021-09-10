@@ -1,0 +1,29 @@
+##CSS Positioning##
+
+First, we have to use <div> to position anything.
+
+Then,
+In the style section,
+
+position:relative;  
+left:100px; / -100px ( - is used if you want to move it to the right)
+top:100px; / - 100px (- is used if you want to move it to the bottom)
+z- index:1;
+
+z-index has been used if two boxes overlap each other. For example: 'A'boxes overlap 'B' box. 
+
+But you want B box should overlap A box.
+
+In that case, you can use z-index. Whichever box has large z-index value, that particular box will overlap other box.
+
+In addition,
+
+you can use opacity in order to see other box. Opacity value should be between 0 to 1.
+
+REMEMBER:
+
+There are 3 types of position value you can use:
+
+1. position:relative;
+2. position:absolute;
+3. position:fixed;
